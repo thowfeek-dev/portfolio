@@ -22,10 +22,12 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import pillsbee from "./company/pillsbee.png";
 import alignminds from "./company/align.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import textronix from "./text.png";
+import pills from "./pillsbee.jpg";
 import tripguide from "./tripguide.png";
+// import carrent from "./carrent.png";
+// import jobit from "./jobit.png";
+// import tripguide from "./tripguide.png";
 
 export {
     logo,
@@ -51,7 +53,7 @@ export {
     threejs,
     pillsbee,
     alignminds,
-    carrent,
-    jobit,
+    pills,
+    textronix,
     tripguide,
 };

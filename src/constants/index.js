@@ -17,8 +17,8 @@ import {
   docker,
   pillsbee,
   alignminds,
-  carrent,
-  jobit,
+  pills,
+  textronix,
   tripguide,
   threejs,
 } from "../assets";
@@ -149,37 +149,37 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "Riswan V",
+    designation: "CEO",
+    company: "Pillsbee",
+    // image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
+    name: "Aswin R",
+    designation: "Manager",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    // image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Shafeek",
+    designation: "Founder",
+    company: "dozendynamics",
+    // image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pillsbee ",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Pillsbee is an AI-powered B2B pharma platform that organizes and integrates Retail pharmacy procurement, logistics, and data across a single value chain for the daily fulfilment of pharma operations.",
     tags: [
       {
-        name: "react",
+        name: "Parse Server",
         color: "blue-text-gradient",
       },
       {
@@ -187,20 +187,20 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Flutter",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pills,
+    source_code_link: "https://www.pillsbee.com",
   },
   {
-    name: "Job IT",
+    name: "TextTronix",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "TextTronix is a sophisticated web-based chat application that enables you to stay in touch with your friends and loved ones at all times and from any location. With TextTronix, you can create chat rooms, share your location, and express yourself with a broad range of expressive emojis.",
     tags: [
       {
-        name: "react",
+        name: "Node.js",
         color: "blue-text-gradient",
       },
       {
@@ -212,8 +212,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: textronix,
+    source_code_link: "https://github.com/thowfeek-dev/TextTronix",
   },
   {
     name: "Trip Guide",
