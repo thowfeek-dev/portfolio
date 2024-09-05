@@ -19,8 +19,7 @@ const Hero = () => {
                         Hi, I'm <span className="text-[#FABC3F]">Thowfeek Salim</span>
                     </h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                        🚀 Crafting scalable apps <br className="sm:block hidden" />
-                        And APIs with MERN stack expertise.
+                        🚀 Crafting scalable apps & APIs with MERN stack expertise.
                     </p>
                 </div>
             </div>
