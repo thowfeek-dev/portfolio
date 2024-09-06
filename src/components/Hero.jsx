@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import logo from "../assets/logo.png";
 
 const Hero = () => {
     return (
-        <section className={`relative w-full h-screen mx-auto`}>
+        <section className={`relative w-full h-[80vh] mx-auto`}> {/* Adjusted height */}
             <div
-                className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+                className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
             >
                 <div className="flex flex-col justify-center items-center mt-5">
                     <div className="w-5 h-5 rounded-full bg-[#FABC3F]" />
@@ -19,29 +19,11 @@ const Hero = () => {
                         Hi, I'm <span className="text-[#FABC3F]">Thowfeek Salim</span>
                     </h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                        🚀 Crafting scalable apps & APIs with MERN stack expertise.
+                        🚀 I am a software engineer specializing in innovative solutions and building robust applications with MERN stack mastery.
                     </p>
                 </div>
-            </div>
 
-            <ComputersCanvas />
-
-            <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
-                <a href="#about">
-                    <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-                        <motion.div
-                            animate={{
-                                y: [0, 24, 0],
-                            }}
-                            transition={{
-                                duration: 1.5,
-                                repeat: Infinity,
-                                repeatType: "loop",
-                            }}
-                            className="w-3 h-3 rounded-full bg-secondary mb-1"
-                        />
-                    </div>
-                </a>
+                <img src={logo} alt="logo" className="hidden md:block" /> {/* Hidden on mobile */}
             </div>
         </section>
     );
